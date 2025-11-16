@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    gap: 10px;
+}
+.sidebar{
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    border: 1px solid rgb(172, 170, 170)
+}
+.sidebar h1{
+    font-size: 25px;
+    font-weight: 300;
+}
+.sidebar ul a li,h1{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.sidebar ul a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar ul a li:hover{
+    background-color: #ccc;
+}
+main{
+    padding: 50px 50px 0 350px;
+}
+section{
+    margin-bottom: 50px;
+    scroll-margin: 50px;
+}
+section article{
+    max-width: 1200px;
+    font-size: 14px;
+}
+section article ul{
+    margin-left: 20px;
+}
+section ul li{
+    margin-bottom: 10px;
+}
+section article p{
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+}
+code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 0 7px 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
